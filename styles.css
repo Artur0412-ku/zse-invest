@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+p, h2, h3, h4 {
+   margin: 0;
+   padding: 10px;
+}
+
+a {
+    color: black;
+
+}
+
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+.mission {
+    display: flex;
+    height: 300px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Artificial_Archipelagos%2C_Dubai%2C_United_Arab_Emirates_ISS022-E-024940_lrg.jpg/1280px-Artificial_Archipelagos%2C_Dubai%2C_United_Arab_Emirates_ISS022-E-024940_lrg.jpg");;
+    padding-top: 35px;
+}
+
+.mission .content {
+    margin: auto;
+    background-color: #fff;
+    width: 100%;
+}
+
+#portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.project span {
+    padding: 5px; 
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.team {
+    background-image: url("https://images.pexels.com/photos/599982/pexels-photo-599982.jpeg");
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    padding: 20px;
+    color: #fff;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 250px;
+}
+
+.contact, .copyright {
+    padding-top: 20px;
+}
